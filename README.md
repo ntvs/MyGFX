@@ -14,6 +14,12 @@ This class also contains some functions to fill the entire array's background or
 Functions which rasterize mathematical descriptions of basic geometry.
 Lines are drawn naively according to the function y=mx+b and circles plotted based on (r)^2=(x+origin_x)^2+(y+origin_y)^2. Circles are not yet rasterized properly. Triangles are drawn simply by drawing 3 lines. Includes the namespace Shape.
 
+# Compilation
+`g++ Screen.cpp -c`
+`g++ Shape.cpp -c`
+`g++ Main.cpp -c`
+`g++ Screen.o Shape.o Main.o`
+
 # Classes/namespaces
 Full documentation of each can be found within the header/implementation files
 ## class Screen
