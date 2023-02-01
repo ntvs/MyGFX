@@ -15,6 +15,7 @@ Functions which rasterize mathematical descriptions of basic geometry.
 Lines are drawn naively according to the function y=mx+b and circles plotted based on (r)^2=(x+origin_x)^2+(y+origin_y)^2. Circles are not yet rasterized properly. Triangles are drawn simply by drawing 3 lines. Includes the namespace Shape.
 
 # Classes/namespaces
+Full documentation of each can be found within the header/implementation files
 ## class Screen
 ### Public instance variables
 ```c++
@@ -63,4 +64,18 @@ void vline(const Vec2& p1, const Vec2& p2, const uint32_t& color, Screen& screen
 void line(const Vec2& p1, const Vec2& p2, const uint32_t& color, Screen& screen);
 void circle (const Vec2& center, const float radius, const uint32_t color, Screen& screen);
 void triangle(const Vec2& p1, const Vec2& p2, const Vec2& p3, const uint32_t& color, Screen& screen);
+```
+
+## namespace LibTest
+### Functions
+```c++
+void BGFill(Screen& screen);
+void RGB(Screen& screen);
+void VLine(Screen& screen);
+void Line(Screen& screen);
+void TriangleWireFrame(Screen& screen);
+void BGFillGradient(Screen& screen);
+void Triforce(Screen& screen);
+void Circle(Screen& screen);
+void RunAll();
 ```
