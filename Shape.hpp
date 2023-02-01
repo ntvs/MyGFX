@@ -4,7 +4,7 @@
 
 /*
     Name: 
-        Simple Shape class
+        Simple Shape namespace
 
     Author:
         ntvs
@@ -14,7 +14,7 @@
         To rasterize various mathematical phenomena onto a screen
 
     Notes:
-        This class also contains functions to draw/rasterize some
+        This namespace also contains functions to draw/rasterize some
         mathematical descriptions of lines and shapes. Lines are drawn naively according
         to the function y=mx+b and circles plotted based on (r)^2=(x+origin_x)^2+(y+origin_y)^2.
         Circles are not yet rasterized properly. Triangles are drawn simply by drawing 3 lines.
