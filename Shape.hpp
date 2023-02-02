@@ -23,6 +23,8 @@
         Shape.cpp 
 */
 
+#include "Screen.hpp"
+
 namespace Shape {
     //"Vector" structs to represent "points"
     struct Vec2 {
