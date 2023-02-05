@@ -2,6 +2,9 @@
 Simple graphics programming done in order to help me understand C, C++ and the inner workings of computer graphics.
 This repository contains:
 
+## RGBCubes
+Demo showcasing 3D cubes using this code + SDL2 to display them in a window
+
 ## Main.cpp
 Driver program to test functionality of graphics functions
 Includes namespace LibTest to conduct these tests
