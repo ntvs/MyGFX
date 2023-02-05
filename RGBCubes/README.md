@@ -1,4 +1,4 @@
-# RGBCubes demo (SDL2
+# RGBCubes demo (SDL2)
 An extension of the previous code but reorganized to deal with 3D points. This code acts as a way for me to experiment with OOP in C++ as well as a way to help me understand how to work with 3D objects in computer graphics. While most of the code is inefficient, I wanted to at least get it to a point where I could interact with it to make debugging easier. This demo uses SDL2 to interact with the 3D objects and display them in a window.
 This folder adds:
 
