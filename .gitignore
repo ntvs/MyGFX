@@ -3,3 +3,9 @@
 
 # Any object files
 *.o
+
+# Any DLLs
+*.dll
+
+# SDL MinGW distribution folder
+win
